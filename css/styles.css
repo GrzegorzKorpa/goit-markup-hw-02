@@ -5,7 +5,7 @@
   background-color: #ffffff;
 }
 
-/* logo */
+/* logo whole*/
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -15,22 +15,23 @@
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
+/* logo part-"studio" header */
 .studio-logo {
   color: #2e2f42;
 }
 
+/* Logo part-"studo" footer */
 .studiologo-footer {
   color: #f4f4fd;
 }
 
 /* address */
-
 .address-style {
   font-style: normal;
 }
 
 /* backgraund */
-
 .header-ground {
   background-color: #fff;
 }
@@ -43,20 +44,18 @@
 .list-ground {
   background-color: #ffffff;
 }
-/* google fonts */
 
+/* google fonts */
 .roboto-regular {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
 .roboto-medium {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
-
 .roboto-bold {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -70,14 +69,13 @@ body {
 }
 
 /* list formatting */
-
 ul,
 ol {
   list-style-type: none;
 }
 
 /* text formatting */
-
+/* h1  */
 .h-one {
   font-family: "Roboto";
   font-weight: 700;
@@ -87,6 +85,7 @@ ol {
   text-align: center;
   color: #fff;
 }
+/* h2 center */
 .h-two {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -97,6 +96,7 @@ ol {
   text-align: center;
   color: #2e2f42;
 }
+/* h3 on left */
 .hthree-left {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -105,6 +105,7 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+/* h3 center */
 .hthree-center {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -114,6 +115,7 @@ ol {
   text-align: center;
   color: #2e2f42;
 }
+/* text on left */
 .text-left {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -122,6 +124,7 @@ ol {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* text center */
 .text-center {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -131,6 +134,7 @@ ol {
   text-align: center;
   color: #434455;
 }
+/* text footer */
 .text-footer {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -140,12 +144,12 @@ ol {
   color: #f4f4fd;
 }
 
+/* center whole */
 .center {
   text-align: center;
 }
 
 /* logo */
-
 .navi-menu {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -160,7 +164,6 @@ ol {
 }
 
 /* link */
-
 .link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -175,7 +178,6 @@ ol {
 }
 
 /* button */
-
 .bat-ton {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -183,7 +185,6 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
 }
